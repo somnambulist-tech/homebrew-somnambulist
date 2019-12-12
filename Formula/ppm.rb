@@ -1,4 +1,4 @@
-class PhpPm < Formula
+class Ppm < Formula
   desc "PHP-PM Process Manager for PHP as a Phar archive"
   homepage "https://github.com/dave-redfern/somnambulist-phppm-phar"
   url "https://github.com/dave-redfern/somnambulist-phppm-phar/releases/download/3.0.0/ppm.phar"

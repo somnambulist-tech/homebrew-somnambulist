@@ -1,4 +1,4 @@
-class SyncIt < Formula
+class Syncit < Formula
   desc "SyncIt for Mutagen a PHP helper for managing mutagen sessions"
   homepage "https://github.com/dave-redfern/somnambulist-sync-it"
   url "https://github.com/dave-redfern/somnambulist-sync-it/releases/download/1.0.0-beta3/mutagen-sync-it.phar"
@@ -7,7 +7,7 @@ class SyncIt < Formula
   bottle :unneeded
 
   def install
-    bin.install "mutagen-syncit.phar" => "syncit"
+    bin.install "mutagen-sync-it.phar" => "syncit"
   end
 
   test do
