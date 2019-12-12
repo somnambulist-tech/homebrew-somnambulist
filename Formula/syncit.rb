@@ -6,6 +6,8 @@ class Syncit < Formula
 
   bottle :unneeded
 
+  depends_on "mutagen-io/mutagen/mutagen"
+
   def install
     bin.install "mutagen-sync-it.phar" => "syncit"
   end
