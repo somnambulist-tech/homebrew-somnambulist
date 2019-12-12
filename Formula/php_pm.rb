@@ -6,6 +6,8 @@ class PhpPm < Formula
 
   bottle :unneeded
 
+  depends_on "mutagen-io/mutagen/mutagen"
+
   def install
     bin.install "ppm.phar" => "ppm"
   end
