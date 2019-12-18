@@ -1,3 +1,4 @@
+
 class Syncit < Formula
   desc "SyncIt for Mutagen a PHP helper for managing mutagen sessions"
   homepage "https://github.com/dave-redfern/somnambulist-sync-it"
@@ -17,3 +18,4 @@ class Syncit < Formula
     assert_match /^Sync-It with Mutagen 1.0.1$/, shell_output("syncit --version")
   end
 end
+
