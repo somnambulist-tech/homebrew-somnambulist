@@ -1,8 +1,8 @@
 class Spm < Formula
   desc "Somnambulist Project Manager (SPM) for managing PHP micro-services projects"
   homepage "https://github.com/dave-redfern/somnambulist-project-manager"
-  url "https://github.com/dave-redfern/somnambulist-project-manager/releases/download/0.3.0/somnambulist-project-manager.phar"
-  sha256 "61dece0fcc98c107cbd8c43e5a2a90e2f256f1c9f7c3f36f710b009b483e1732"
+  url "https://github.com/dave-redfern/somnambulist-project-manager/releases/download/0.4.0/somnambulist-project-manager.phar"
+  sha256 "6562ee87c3efd5f565aa1f69344dcde490c02148eeae384ac837b61295260732"
 
   bottle :unneeded
 
