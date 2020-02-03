@@ -81,9 +81,9 @@ end
 '
 
 toProcess = [
-    RepoDef.new('Syncit', 'Sync-It with Mutagen', 'syncit', 'SyncIt for Mutagen a PHP helper for managing mutagen sessions', 'dave-redfern/somnambulist-sync-it' , 'depends_on "mutagen-io/mutagen/mutagen"'),
-    RepoDef.new('Spm', 'Somnambulist Project Manager', 'spm', 'Somnambulist Project Manager (SPM) for managing PHP micro-services projects', 'dave-redfern/somnambulist-project-manager' ),
-    RepoDef.new('Ppm', 'PHP-PM', 'ppm', 'PHP-PM Process Manager for PHP as a Phar archive', 'dave-redfern/somnambulist-phppm-phar' ),
+    RepoDef.new('Syncit', 'Sync-It with Mutagen', 'syncit', 'SyncIt for Mutagen a PHP helper for managing mutagen sessions', 'somnambulist-tech/sync-it' , 'depends_on "mutagen-io/mutagen/mutagen"'),
+    RepoDef.new('Spm', 'Somnambulist Project Manager', 'spm', 'Somnambulist Project Manager (SPM) for managing PHP micro-services projects', 'somnambulist-tech/project-manager' ),
+    RepoDef.new('Ppm', 'PHP-PM', 'ppm', 'PHP-PM Process Manager for PHP as a Phar archive', 'somnambulist-tech/phppm-phar' ),
 ]
 
 toProcess.each do |d|
