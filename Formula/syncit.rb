@@ -2,9 +2,9 @@
 class Syncit < Formula
   desc "SyncIt for Mutagen a PHP helper for managing mutagen sessions"
   homepage "https://github.com/somnambulist-tech/sync-it"
-  url "https://github.com/somnambulist-tech/sync-it/releases/download/1.1.0/mutagen-sync-it.phar"
-  sha256 "109af44c3a96e03a3106ef456874b5999357728001b34f8d73b8e505bcffe16d"
-  version "1.1.0"
+  url "https://github.com/somnambulist-tech/sync-it/releases/download/1.2.0/mutagen-sync-it.phar"
+  sha256 "12fbf736c66f7e7d2e83114b69647a6840a608267e46afa92a0a4ddae14689c9"
+  version "1.2.0"
 
   bottle :unneeded
 
@@ -15,7 +15,7 @@ class Syncit < Formula
   end
 
   test do
-    assert_match /^Sync-It with Mutagen 1.1.0$/, shell_output("syncit --version")
+    assert_match /^Sync-It with Mutagen 1.2.0$/, shell_output("syncit --version")
   end
 end
 
