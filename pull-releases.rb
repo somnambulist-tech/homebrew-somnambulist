@@ -64,13 +64,12 @@ class __CLASS__ < Formula
   url "__URL__"
   sha256 "__SHA__"
   version "__VERSION__"
-
   bottle :unneeded
-
   __DEPENDS__
 
   def install
-    bin.install "__FILE__" => "__ALIAS__"
+    bin.install "__FILE__" => "__FILE__"
+    bin.install_symlink  "#{bin}/__FILE__" => "__ALIAS__"
   end
 
   test do

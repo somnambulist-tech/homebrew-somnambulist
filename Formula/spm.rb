@@ -5,13 +5,12 @@ class Spm < Formula
   url "https://github.com/somnambulist-tech/project-manager/releases/download/0.13.2/somnambulist-project-manager.phar"
   sha256 "da7d21732ab344a9bf08944b3dc5a4dafb9719a45f8bf5c97d4d3a9cfee91c28"
   version "0.13.2"
-
   bottle :unneeded
-
   
 
   def install
-    bin.install "somnambulist-project-manager.phar" => "spm"
+    bin.install "somnambulist-project-manager.phar" => "somnambulist-project-manager.phar"
+    bin.install_symlink  "#{bin}/somnambulist-project-manager.phar" => "spm"
   end
 
   test do

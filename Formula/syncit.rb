@@ -5,13 +5,12 @@ class Syncit < Formula
   url "https://github.com/somnambulist-tech/sync-it/releases/download/1.2.1/mutagen-sync-it.phar"
   sha256 "350e165d86400d0e2f4e304c9e83784a49b386231f96d35cc032b872d5a728a1"
   version "1.2.1"
-
   bottle :unneeded
-
   depends_on "mutagen-io/mutagen/mutagen"
 
   def install
-    bin.install "mutagen-sync-it.phar" => "syncit"
+    bin.install "mutagen-sync-it.phar" => "mutagen-sync-it.phar"
+    bin.install_symlink  "#{bin}/mutagen-sync-it.phar" => "syncit"
   end
 
   test do
