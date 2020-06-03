@@ -2,9 +2,9 @@
 class Ppm < Formula
   desc "PHP-PM Process Manager for PHP as a Phar archive"
   homepage "https://github.com/somnambulist-tech/phppm-phar"
-  url "https://github.com/somnambulist-tech/phppm-phar/releases/download/4.2.1/ppm.phar"
-  sha256 "d1714092b368136f290d03ca61bf00550b91a40935852de83953e5ba51ca30f3"
-  version "4.2.1"
+  url "https://github.com/somnambulist-tech/phppm-phar/releases/download/4.2.2/ppm.phar"
+  sha256 "ac0f3320ffeed414ab9bafc5b87cfda16c82e3714095f017dfaf458f7f8705fe"
+  version "4.2.2"
   bottle :unneeded
   
 
@@ -14,7 +14,7 @@ class Ppm < Formula
   end
 
   test do
-    assert_match /^PHP-PM 4.2.1$/, shell_output("ppm --version")
+    assert_match /^PHP-PM 4.2.2$/, shell_output("ppm --version")
   end
 end
 
