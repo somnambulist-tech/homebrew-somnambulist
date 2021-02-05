@@ -2,9 +2,9 @@
 class Spm < Formula
   desc "Somnambulist Project Manager (SPM) for managing PHP micro-services projects"
   homepage "https://github.com/somnambulist-tech/project-manager"
-  url "https://github.com/somnambulist-tech/project-manager/releases/download/0.17.3/somnambulist-project-manager.phar"
-  sha256 "b75afd3268c7dd375b056486ea386b171e5adc13b713ffd0b1b3402f21dc0dc3"
-  version "0.17.3"
+  url "https://github.com/somnambulist-tech/project-manager/releases/download/0.18.0/somnambulist-project-manager.phar"
+  sha256 "0ff5d7fd4194a362f23feab48f777ac7071bb8a8c282b7796c97f233ba442109"
+  version "0.18.0"
   bottle :unneeded
   
 
@@ -14,7 +14,7 @@ class Spm < Formula
   end
 
   test do
-    assert_match /^Somnambulist Project Manager 0.17.3$/, shell_output("spm --version")
+    assert_match /^Somnambulist Project Manager 0.18.0$/, shell_output("spm --version")
   end
 end
 
