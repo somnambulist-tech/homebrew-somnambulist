@@ -5,7 +5,6 @@ class Syncit < Formula
   url "https://github.com/somnambulist-tech/sync-it/releases/download/2.0.0/mutagen-sync-it.phar"
   sha256 "cd11b31beb3e5494ff45b241b30bb68216f7f22f01250cdbd5f6fa1272cd8d7f"
   version "2.0.0"
-  bottle :unneeded
   depends_on "mutagen-io/mutagen/mutagen"
 
   def install

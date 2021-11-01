@@ -5,7 +5,6 @@ class Ppm < Formula
   url "https://github.com/somnambulist-tech/phppm-phar/releases/download/6.1.0/ppm.phar"
   sha256 "b1973870ed6eae260ed704f09728dd2c395235d8020b9f04d76931b82ae6f5c4"
   version "6.1.0"
-  bottle :unneeded
   
 
   def install
