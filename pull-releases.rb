@@ -64,7 +64,6 @@ class __CLASS__ < Formula
   url "__URL__"
   sha256 "__SHA__"
   version "__VERSION__"
-  bottle :unneeded
   __DEPENDS__
 
   def install
