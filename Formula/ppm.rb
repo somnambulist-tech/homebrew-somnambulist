@@ -2,9 +2,9 @@
 class Ppm < Formula
   desc "PHP-PM Process Manager for PHP as a Phar archive"
   homepage "https://github.com/somnambulist-tech/phppm-phar"
-  url "https://github.com/somnambulist-tech/phppm-phar/releases/download/7.0.1/ppm.phar"
-  sha256 "fa4e765da3f9325e86f3846da0355d0db546910ce4804773fb097ae2b7721aba"
-  version "7.0.1"
+  url "https://github.com/somnambulist-tech/phppm-phar/releases/download/7.0.2/ppm.phar"
+  sha256 "b93355d36ddd1e5d5e980d5a5b696d404849335d3c9a4347a389bbf6642e5531"
+  version "7.0.2"
   
 
   def install
@@ -13,7 +13,7 @@ class Ppm < Formula
   end
 
   test do
-    assert_match /^PHP-PM 7.0.1$/, shell_output("ppm --version")
+    assert_match /^PHP-PM 7.0.2$/, shell_output("ppm --version")
   end
 end
 
