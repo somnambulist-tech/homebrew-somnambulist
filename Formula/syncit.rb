@@ -2,9 +2,9 @@
 class Syncit < Formula
   desc "SyncIt for Mutagen a PHP helper for managing mutagen sessions"
   homepage "https://github.com/somnambulist-tech/sync-it"
-  url "https://github.com/somnambulist-tech/sync-it/releases/download/4.0.0/mutagen-sync-it.phar"
-  sha256 "9bd0e96883e345ad46b657d0d7b6025f779d65eda0c0e528171fcb64e5fbcc30"
-  version "4.0.0"
+  url "https://github.com/somnambulist-tech/sync-it/releases/download/4.0.1/mutagen-sync-it.phar"
+  sha256 "2ba62e25d799029a2325a1b7f01a2c573c019e05cfea199b2c099e8aac95fee8"
+  version "4.0.1"
   depends_on "mutagen-io/mutagen/mutagen"
 
   def install
@@ -13,7 +13,7 @@ class Syncit < Formula
   end
 
   test do
-    assert_match /^Sync-It with Mutagen 4.0.0$/, shell_output("syncit --version")
+    assert_match /^Sync-It with Mutagen 4.0.1$/, shell_output("syncit --version")
   end
 end
 
